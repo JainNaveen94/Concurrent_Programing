@@ -38,8 +38,7 @@ public class CallableFutureImplThroughRunnableDemo {
 
 	public static void main(String[] args) {
 		
-		CallableImpl[] taskList;
-		taskList = new CallableImpl[5];
+		CallableImpl[] taskList = new CallableImpl[5];
 		
 		for (int i = 0; i < taskList.length; i++) {
 			taskList[i] = new CallableImpl();
